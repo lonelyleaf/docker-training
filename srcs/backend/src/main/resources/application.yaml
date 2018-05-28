@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: backend
+  datasource:
+#    url: jdbc:mysql://mysql:3306/test_db
+    url: jdbc:mysql://10.1.31.63:18806/test_db
+    username: root
+    password: root_pass
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+  jackson.serialization.fail-on-empty-beans: false
