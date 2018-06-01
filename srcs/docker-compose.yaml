@@ -16,16 +16,25 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     restart: always
-    depends_on:
-      - mysql
     ports:
       - "8080:8080"
+    #通过spring boot可以通过环境变量来重写配置的功能，重新配置数据库
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/test_db
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=root_pass
+    depends_on:
+      - mysql
 
   mysql:
     image: mysql:8.0.11
     restart: always
     ports:
       - "3306:3306"
+    #持久化数据库数据
+    volumes:
+      - /mysql/datadir:/var/lib/mysql
+    #设置数据库配置
     environment:
-     - MYSQL_ROOT_PASSWORD=root_pass
-     - MYSQL_DATABASE=test_db
+      - MYSQL_ROOT_PASSWORD=root_pass
+      - MYSQL_DATABASE=test_db
