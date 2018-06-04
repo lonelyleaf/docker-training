@@ -21,8 +21,6 @@ docker使用教程
 
 2. [docker-compose使用](/docs/2.docker-compose使用.md)
 
-3. 通过docker-compose快速部署一个，node前端+spring-boot后端+mysql数据库的服务
-
 4. 基于rancher的docker集群
 
 5. kubernetes(k8s)简介
