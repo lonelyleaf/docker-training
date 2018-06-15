@@ -23,16 +23,14 @@ docker使用教程
 
 2. [docker-compose使用](/docs/2.docker-compose使用.md)
 
-4. 基于rancher的docker集群
+3. [基于rancher的docker集群](/docs/3.基于rancher的docker集群.md)
 
-5. kubernetes(k8s)简介
-
-6. 基于k8s的rancher2.0
-
-7. CI/CD持续集成，持续部署
+4. CI/CD持续集成，持续部署
 
 jenkins简介，能完成什么功能
 使用git+webhook+jenkins来完成 ci/cd流程
+
+5. 从服务开发-部署-到开放到公网，现在到底是个什么流程？
 
 8. 简单介绍下容器相关的运维工具
 日志收集 elasticsearch -> filebeats或logstash -> kibana
