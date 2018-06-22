@@ -27,8 +27,8 @@ docker使用教程
 
 4. [持续集成(CI)与持续部署(CD)](docs/4.持续集成(CI)与持续部署(CD).md)
 
-5. 从服务开发-部署-到开放到公网，现在到底是个什么流程？
+5. 当前架构简介
 
-8. 简单介绍下容器相关的运维工具
+
 日志收集 elasticsearch -> filebeats或logstash -> kibana
 监控 prometheus -> grafana
