@@ -25,10 +25,7 @@ docker使用教程
 
 3. [基于rancher的docker集群](/docs/3.基于rancher的docker集群.md)
 
-4. CI/CD持续集成，持续部署
-
-jenkins简介，能完成什么功能
-使用git+webhook+jenkins来完成 ci/cd流程
+4. [持续集成(CI)与持续部署(CD)](docs/4.持续集成(CI)与持续部署(CD).md)
 
 5. 从服务开发-部署-到开放到公网，现在到底是个什么流程？
 
