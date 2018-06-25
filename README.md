@@ -27,7 +27,7 @@ docker使用教程
 
 4. [持续集成(CI)与持续部署(CD)](docs/4.持续集成(CI)与持续部署(CD).md)
 
-5. 当前架构简介
+5. 当前架构与一些工具的简介
 
 
 日志收集 elasticsearch -> filebeats或logstash -> kibana
