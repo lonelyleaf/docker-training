@@ -19,11 +19,11 @@ docker使用教程
 
 ## 文章列表
 
-1. [Docker基础](/docs/1.Docker基础.md)
+1. [Docker基础](docs/1.Docker基础.md)
 
-2. [docker-compose使用](/docs/2.docker-compose使用.md)
+2. [docker-compose使用](docs/2.docker-compose使用.md)
 
-3. [基于rancher的docker集群](/docs/3.基于rancher的docker集群.md)
+3. [基于rancher的docker集群](docs/3.基于rancher的docker集群.md)
 
 4. [持续集成(CI)与持续部署(CD)](docs/4.持续集成(CI)与持续部署(CD).md)
 
